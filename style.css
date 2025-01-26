@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+}
+
+img {
+	width: 150px;
+	filter: blur(1px);
+}
+
+h1 {
+	color: #EEE;
+	font-family: 'Arial' !important;
+	font-size: 5rem;
+	font-weight: 700;
+	text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+kbd {
+	background-color: #EEE;
+	color: #444;
+	font-size: 3rem;
+	font-weight: 500;
+	border: 1px solid #b0b0b0;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3),
+	0 2px 0 0 rgba(255, 255, 255, 1) inset;
+}
+
+svg {
+	width: 50px;
+	margin-top: -20px;
+}
+
+#amountPeso, #amountConverted {
+	white-space: nowrap !important;
+}
+
+.btn {
+	font-family: 'Roboto';
+	font-size: 1.75rem;
+	font-weight: 300 !important;
+	border: 1px solid #b0b0b0;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3)
+}
+
+.btn:hover {
+	background-color: #dedede !important;
+	font-weight: 450 !important;
+}
+
+#refresh {
+	background-color: #aae46e !important;
+	color: white !important;
+	border-color: #92d64a !important;
+	font-weight: 450 !important;
+}
+
+#refresh:hover {
+	background-color: #e7a050 !important;
+	border-color: rgb(219, 141, 59) !important;
+	font-weight: 450 !important;
+}
+
+/* to avoid text going off the screen for smaller screen sizes */
+@media (max-width: 768px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	kbd {
+		font-size: 2rem;
+	}
+
+	.btn {
+		font-size: 1.5rem;
+	}
+}
